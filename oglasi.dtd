@@ -1,0 +1,15 @@
+<!ELEMENT oglasi (oglas*)>
+<!ELEMENT oglas (kategorija,datumIsteka,cena,tekstOglasa,oznaka*,email+)>
+<!ELEMENT kategorija (automobili|stanovi|laptopovi|alati|podučavanje)>
+<!ELEMENT automobili EMPTY>
+<!ELEMENT stanovi EMPTY>
+<!ELEMENT laptopovi EMPTY>
+<!ELEMENT alati EMPTY>
+<!ELEMENT podučavanje EMPTY>
+<!ELEMENT datumIsteka (#PCDATA)>
+<!ELEMENT cena (#PCDATA)>
+<!ELEMENT tekstOglasa ANY>
+<!ELEMENT oznaka (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+<!ATTLIST cena valuta (RSD|EUR) "RSD">
+<!ATTLIST email tip (privatni|sluzbeni) #REQUIRED>
