@@ -5,9 +5,7 @@
             <automobili/>
         </kategorija>
         <datumIsteka>
-            <dan>13</dan>
-            <mesec>6</mesec>
-            <godina>2022</godina>
+            2022-06-13
         </datumIsteka>
         <cena valuta="EUR">3500</cena>
         <tekstOglasa>Volkswagen Passat B6 2009. 2.0 TDI karavan</tekstOglasa>
@@ -21,9 +19,7 @@
             <stanovi/>
         </kategorija>
         <datumIsteka>
-            <dan>28</dan>
-            <mesec>5</mesec>
-            <godina>2022</godina>
+            2022-05-28
         </datumIsteka>
         <cena valuta="EUR">111111</cena>
         <tekstOglasa>Stan na crevnom krstu, namesten, trosoban, 84 kvadrata</tekstOglasa>
@@ -36,9 +32,7 @@
             <laptopovi/>
         </kategorija>
         <datumIsteka>
-            <dan>4</dan>
-            <mesec>6</mesec>
-            <godina>2022</godina>
+            2022-06-05
         </datumIsteka>
         <cena valuta="RSD">126990</cena>
         <tekstOglasa>Lenovo Laptop IdeaPad 5 Pro 14ACN6 Win11Pro/14"2.8K/Ryzen 7 5800U/16GB/1TB SSD/MX450 2GB</tekstOglasa>
