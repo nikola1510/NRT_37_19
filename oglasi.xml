@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <oglasi>
     <oglas>
-        <kategorija>Automobili</kategorija>
+        <kategorija>
+            <Automobili/>
+        </kategorija>
         <datumIsteka>
             <dan>13</dan>
             <mesec>6</mesec>
@@ -15,7 +17,24 @@
         <email tip="sluzbeni">prodavac@gmail.com</email>
     </oglas>
     <oglas>
-        <kategorija>Laptopovi</kategorija>
+        <kategorija>
+            <Stanovi/>
+        </kategorija>
+        <datumIsteka>
+            <dan>28</dan>
+            <mesec>5</mesec>
+            <godina>2022</godina>
+        </datumIsteka>
+        <cena valuta="EUR">111111</cena>
+        <tekstOglasa>Stan na crevnom krstu, namesten, trosoban, 84 kvadrata</tekstOglasa>
+        <oznaka>Lux</oznaka>
+        <oznaka>Novogradnja</oznaka>
+        <email tip="sluzbeni">agencija@gmail.com</email>
+    </oglas>
+    <oglas>
+        <kategorija>
+            <Laptopovi/>
+        </kategorija>
         <datumIsteka>
             <dan>4</dan>
             <mesec>6</mesec>
