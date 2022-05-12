@@ -2,7 +2,7 @@
 <oglasi>
     <oglas>
         <kategorija>
-            <Automobili/>
+            <automobili/>
         </kategorija>
         <datumIsteka>
             <dan>13</dan>
@@ -18,7 +18,7 @@
     </oglas>
     <oglas>
         <kategorija>
-            <Stanovi/>
+            <stanovi/>
         </kategorija>
         <datumIsteka>
             <dan>28</dan>
@@ -33,7 +33,7 @@
     </oglas>
     <oglas>
         <kategorija>
-            <Laptopovi/>
+            <laptopovi/>
         </kategorija>
         <datumIsteka>
             <dan>4</dan>
