@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<oglasi>
+    <oglas>
+        <kategorija>Automobili</kategorija>
+        <datumIsteka>
+            <Dan>13</Dan>
+            <Mesec>6</Mesec>
+            <Godina>2022</Godina>
+        </datumIsteka>
+        <cena valuta="EUR">3500</cena>
+        <tekstOglasa>Volkswagen Passat B6 2009. 2.0 TDI karavan</tekstOglasa>
+        <ozanka>Polovno</ozanka>
+        <ozanka>Snizenje</ozanka>
+        <email tip="privatni">mirko@gmail.com</email>
+        <email tip="sluzbeni">prodavac@gmail.com</email>
+    </oglas>
+    <oglas>
+        <kategorija>Laptopovi</kategorija>
+        <datumIsteka>
+            <Dan>4</Dan>
+            <Mesec>6</Mesec>
+            <Godina>2022</Godina>
+        </datumIsteka>
+        <cena valuta="RSD">126990</cena>
+        <tekstOglasa>Lenovo Laptop IdeaPad 5 Pro 14ACN6 Win11Pro/14"2.8K/Ryzen 7 5800U/16GB/1TB SSD/MX450 2GB</tekstOglasa>
+        <ozanka>Kao novo - nekorisceno</ozanka>
+        <email tip="privatni">stefan@gmail.com</email>
+    </oglas>
+</oglasi>
