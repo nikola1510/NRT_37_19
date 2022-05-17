@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function dodajMejl() {
+          document.getElementById("mejlovi").innerHTML += `
+            <div>
+                <select name="tipMejla">
+                    <option value="privatni">Privatni</option>
+                    <option value="sluzbeni">Sluzbeni</option>
+                </select>
+                <input type="email" name="email">
+                <span onclick="ukoniMejl(this)">-</span>
+            </div>
+          `
+        }
+        function ukoniMejl(el) {
+          el.parentNode.remove()
+        }
+        
+        function dodajOznaku() {
+          document.getElementById("oznake").innerHTML += `
+            <div>
+                <input type="text" name="tags">
+                <span onclick="ukoniOznaku(this)">-</span>
+            </div>             
+          `
+        }
+        function ukoniOznaku(el) {
+          el.parentNode.remove()
+        }
+    </script>
+</head>
+<body>
+    <nav>
+        <a href="/svioglasi">Pogledaj sve oglase</a>
+        <a href="/dodajoglas">Dodaj oglas</a>
+    </nav>
+    <form id="forma" action="/snimioglas" method="post">
+        <label for="kategorija">Kategorija:</label>
+        <select name="kategorija">
+          #{dataKategorije}
+            <!--<option value="automobili">Automobili</option>
+            <option value="stanovi">Stanovi</option>
+            <option value="laptopovi">Laptopovi</option>
+            <option value="alati">Alati</option>
+            <option value="podučavanje">Podučavanje</option>-->
+        </select>
+        <br>
+        <label for="datumIsteka">Datum isteka:</label>
+        #{dataDatum}
+        <br>
+        <label for="cena">Cena:</label>
+        <input type="number" name="cena" min="0">
+        #{dataValute}
+        <!--<input type="radio" value="RSD" name="valuta" checked>RSD
+        <input type="radio" value="EUR" name="valuta">EUR-->
+        <br>
+        <label for="tekstOglasa">Tekst oglasa:</label>
+        <br>
+        <textarea name="tekstOglasa"></textarea>
+        <br>
+        <label for="oznake">Tagovi(oznake):</label>
+        <button type="button" onclick="dodajOznaku()">Dodaj oznaku</button>
+        <div id="oznake">     
+        </div>                     
+        <label for="mejlovi">E-mails:</label>
+        <div id="mejlovi">
+            <button type="button" onclick="dodajMejl()">Dodaj mejl</button>
+            <div>
+                <select name="tipMejla">
+                    <option value="privatni">Privatni</option>
+                    <option value="sluzbeni">Sluzbeni</option>
+                </select>
+                <input type="email" name="email">
+            </div>           
+        </div>       
+        <button type="submit">Dodaj oglas</button>
+    </form>
+</body>
+</html>
